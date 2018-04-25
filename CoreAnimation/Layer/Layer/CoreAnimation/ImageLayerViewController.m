@@ -1,35 +1,29 @@
 //
-//  SimpleLayerViewController.m
+//  ImageLayerViewController.m
 //  Layer
 //
 //  Created by ifeng on 2018/4/25.
 //  Copyright © 2018年 ifeng. All rights reserved.
 //
-//  https://github.com/AttackOnDobby/iOS-Core-Animation-Advanced-Techniques/blob/master/1-图层树/图层树.md
+//  https://github.com/AttackOnDobby/iOS-Core-Animation-Advanced-Techniques/blob/master/2-寄宿图/寄宿图.md
 
-#import "SimpleLayerViewController.h"
+#import "ImageLayerViewController.h"
 
-@interface SimpleLayerViewController ()
+@interface ImageLayerViewController ()
 
 @property (nonatomic, strong) UIView *layerView;
 
 @end
 
-@implementation SimpleLayerViewController
+@implementation ImageLayerViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"01.图层树";
+    self.title = @"02.寄宿图";
     
     self.view.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:self.layerView];
-    
-    CALayer *blueLayer = [CALayer layer];
-    blueLayer.frame = CGRectMake(50, 50, 100, 100);
-    blueLayer.backgroundColor = [UIColor blueColor].CGColor;
-    
-    [self.layerView.layer addSublayer:blueLayer];
 }
 
 - (UIView *)layerView

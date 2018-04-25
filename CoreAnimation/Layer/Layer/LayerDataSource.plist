@@ -8,5 +8,11 @@
 		<key>ViewController</key>
 		<string>SimpleLayerViewController</string>
 	</dict>
+	<dict>
+		<key>Title</key>
+		<string>02.寄宿图</string>
+		<key>ViewController</key>
+		<string>ImageLayerViewController</string>
+	</dict>
 </array>
 </plist>
