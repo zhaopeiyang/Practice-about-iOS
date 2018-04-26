@@ -17,6 +17,7 @@
 		5E1AE2082090667400BE044F /* LayerDataSource.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E1AE2072090667400BE044F /* LayerDataSource.plist */; };
 		5E1AE20C2090683A00BE044F /* SimpleLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AE20B2090683A00BE044F /* SimpleLayerViewController.m */; };
 		5E1AE20F2090743900BE044F /* ImageLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AE20E2090743900BE044F /* ImageLayerViewController.m */; };
+		5E1AE21220916F7B00BE044F /* GeometryLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AE21120916F7A00BE044F /* GeometryLayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		5E1AE20B2090683A00BE044F /* SimpleLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleLayerViewController.m; sourceTree = "<group>"; };
 		5E1AE20D2090743900BE044F /* ImageLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageLayerViewController.h; sourceTree = "<group>"; };
 		5E1AE20E2090743900BE044F /* ImageLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageLayerViewController.m; sourceTree = "<group>"; };
+		5E1AE21020916F7A00BE044F /* GeometryLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeometryLayerViewController.h; sourceTree = "<group>"; };
+		5E1AE21120916F7A00BE044F /* GeometryLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeometryLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				5E1AE20B2090683A00BE044F /* SimpleLayerViewController.m */,
 				5E1AE20D2090743900BE044F /* ImageLayerViewController.h */,
 				5E1AE20E2090743900BE044F /* ImageLayerViewController.m */,
+				5E1AE21020916F7A00BE044F /* GeometryLayerViewController.h */,
+				5E1AE21120916F7A00BE044F /* GeometryLayerViewController.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			files = (
 				5E1AE20F2090743900BE044F /* ImageLayerViewController.m in Sources */,
 				5E1AE20C2090683A00BE044F /* SimpleLayerViewController.m in Sources */,
+				5E1AE21220916F7B00BE044F /* GeometryLayerViewController.m in Sources */,
 				5E1AE1DA2090644200BE044F /* ViewController.m in Sources */,
 				5E1AE1E52090644200BE044F /* main.m in Sources */,
 				5E1AE1D72090644200BE044F /* AppDelegate.m in Sources */,
