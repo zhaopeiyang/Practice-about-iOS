@@ -20,5 +20,11 @@
 		<key>ViewController</key>
 		<string>GeometryLayerViewController</string>
 	</dict>
+	<dict>
+		<key>Title</key>
+		<string>04.视觉效果</string>
+		<key>ViewController</key>
+		<string>VisionLayerViewController</string>
+	</dict>
 </array>
 </plist>
