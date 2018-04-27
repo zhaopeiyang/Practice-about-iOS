@@ -20,7 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"01.图层树";
     
     self.view.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:self.layerView];

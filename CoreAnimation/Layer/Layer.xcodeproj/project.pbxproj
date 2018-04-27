@@ -19,6 +19,7 @@
 		5E1AE20F2090743900BE044F /* ImageLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AE20E2090743900BE044F /* ImageLayerViewController.m */; };
 		5E1AE21220916F7B00BE044F /* GeometryLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AE21120916F7A00BE044F /* GeometryLayerViewController.m */; };
 		5E1AE2152091B84B00BE044F /* VisionLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AE2142091B84B00BE044F /* VisionLayerViewController.m */; };
+		5E1AE2182092BBC200BE044F /* TransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AE2172092BBC200BE044F /* TransformLayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		5E1AE21120916F7A00BE044F /* GeometryLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeometryLayerViewController.m; sourceTree = "<group>"; };
 		5E1AE2132091B84B00BE044F /* VisionLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisionLayerViewController.h; sourceTree = "<group>"; };
 		5E1AE2142091B84B00BE044F /* VisionLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisionLayerViewController.m; sourceTree = "<group>"; };
+		5E1AE2162092BBC200BE044F /* TransformLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformLayerViewController.h; sourceTree = "<group>"; };
+		5E1AE2172092BBC200BE044F /* TransformLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				5E1AE21120916F7A00BE044F /* GeometryLayerViewController.m */,
 				5E1AE2132091B84B00BE044F /* VisionLayerViewController.h */,
 				5E1AE2142091B84B00BE044F /* VisionLayerViewController.m */,
+				5E1AE2162092BBC200BE044F /* TransformLayerViewController.h */,
+				5E1AE2172092BBC200BE044F /* TransformLayerViewController.m */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E1AE20F2090743900BE044F /* ImageLayerViewController.m in Sources */,
+				5E1AE2182092BBC200BE044F /* TransformLayerViewController.m in Sources */,
 				5E1AE20C2090683A00BE044F /* SimpleLayerViewController.m in Sources */,
 				5E1AE21220916F7B00BE044F /* GeometryLayerViewController.m in Sources */,
 				5E1AE1DA2090644200BE044F /* ViewController.m in Sources */,

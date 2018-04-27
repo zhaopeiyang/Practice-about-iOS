@@ -26,5 +26,11 @@
 		<key>ViewController</key>
 		<string>VisionLayerViewController</string>
 	</dict>
+	<dict>
+		<key>Title</key>
+		<string>05.变换</string>
+		<key>ViewController</key>
+		<string>TransformLayerViewController</string>
+	</dict>
 </array>
 </plist>

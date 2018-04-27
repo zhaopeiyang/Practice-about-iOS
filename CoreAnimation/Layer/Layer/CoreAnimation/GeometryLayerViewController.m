@@ -33,7 +33,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"03.图层几何学";
+
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     // TODO: anchorPoint

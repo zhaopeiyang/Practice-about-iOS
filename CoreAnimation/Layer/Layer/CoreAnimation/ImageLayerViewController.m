@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"02.寄宿图";
+
     self.view.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:self.layerView];
     

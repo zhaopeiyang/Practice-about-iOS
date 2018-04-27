@@ -47,6 +47,7 @@ static NSString *const kLayerCellReuseIdentifier = @"kLayerCellReuseIdentifier";
     NSDictionary *dict = self.dataArray[indexPath.row];
     Class cls = NSClassFromString(dict[@"ViewController"]);
     UIViewController *vc = [[cls alloc] init];
+    vc.title = dict[@"Title"];
     [self.navigationController pushViewController:vc animated:YES];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];

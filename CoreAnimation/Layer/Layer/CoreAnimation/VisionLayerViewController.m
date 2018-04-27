@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"04.视觉效果";
+
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     // TODO: conrnerRadius masksToBounds borderWidth borderColor
